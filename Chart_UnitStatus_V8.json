@@ -1,0 +1,119 @@
+{
+  "id": "com.max.unitstatus",
+  "version": "1.0.0",
+  "name": "Unit Status KPI Card",
+  "newInstancePrefix": "UnitStatus",
+  "vendor": "MAX",
+  "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgdmlld0JveD0iMCAwIDY0IDY0Ij48cmVjdCB4PSI2IiB5PSIxNiIgd2lkdGg9IjE2IiBoZWlnaHQ9IjMyIiByeD0iNCIgZmlsbD0iIzE2MjYzQiIvPjxyZWN0IHg9IjI0IiB5PSIxNiIgd2lkdGg9IjE2IiBoZWlnaHQ9IjMyIiByeD0iNCIgZmlsbD0iI0Y5NzMxNiIvPjxyZWN0IHg9IjQyIiB5PSIxNiIgd2lkdGg9IjE2IiBoZWlnaHQ9IjMyIiByeD0iNCIgZmlsbD0iIzk0QTNCOCIvPjwvc3ZnPg==",
+  "webcomponents": [
+    {
+      "kind": "main",
+      "tag": "com-max-unitstatus",
+      "url": "https://cdn.jsdelivr.net/gh/Lakshita-BTP/PROJECTS-SKYPERS-CUSTOM_WIDGET_04_UNITSTATUS@main/Chart_UnitStatus_V8.js",
+      "integrity": "sha384-HauOceNJTtvTyzLFHbTfbp1oVeLP54PjQpgFA/UdWfOyGvbb7iIeWD/vHgZ1dE0y"
+    }
+  ],
+  "dataBindings": {
+    "myDataBinding": {
+      "feeds": [
+        {
+          "id": "dimensions",
+          "type": "dimension",
+          "description": "Category"
+        },
+        {
+          "id": "measures",
+          "type": "mainStructureMember",
+          "description": "Measures"
+        }
+      ]
+    }
+  },
+  "properties": {},
+  "methods": {
+    "setTitle": {
+      "parameters": [
+        {
+          "name": "value",
+          "type": "string"
+        }
+      ]
+    },
+    "setTitleColor": {
+      "parameters": [
+        {
+          "name": "value",
+          "type": "string"
+        }
+      ]
+    },
+    "setSubtitleColor": {
+      "parameters": [
+        {
+          "name": "value",
+          "type": "string"
+        }
+      ]
+    },
+    "setHeaderBackground": {
+      "parameters": [
+        {
+          "name": "value",
+          "type": "string"
+        }
+      ]
+    },
+    "setValueColor": {
+      "parameters": [
+        {
+          "name": "value",
+          "type": "string"
+        }
+      ]
+    },
+    "setTitleFontSize": {
+      "parameters": [
+        {
+          "name": "value",
+          "type": "string"
+        }
+      ]
+    },
+    "setValueFontSize": {
+      "parameters": [
+        {
+          "name": "value",
+          "type": "string"
+        }
+      ]
+    },
+    "setSubtitleFontSize": {
+      "parameters": [
+        {
+          "name": "value",
+          "type": "string"
+        }
+      ]
+    },
+    "setSubtitleText": {
+      "parameters": [
+        {
+          "name": "value",
+          "type": "string"
+        }
+      ]
+    },
+    "setValue": {
+      "parameters": [
+        {
+          "name": "value",
+          "type": "string"
+        }
+      ]
+    }
+  },
+  "events": {
+    "onSelect": {},
+    "onResultSet": {}
+  }
+}
